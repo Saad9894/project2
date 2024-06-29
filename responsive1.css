@@ -54,70 +54,86 @@
     header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
         display: none;
     }
+
     .he {
         width: 28%;
     }
+
     .good {
         margin: 1%;
         width: 110%;
     }
+
     .good img {
         width: 15%;
         height: 20vw;
     }
+
     .connect {
         width: 32%;
         height: 12vw;
         line-height: 11vw;
     }
+
     .box {
         height: 22vw;
         width: 113%;
     }
+
     .box img {
         height: 18vw;
     }
+
     .black {
         width: 24%;
         line-height: 5vw;
         height: 9vw;
     }
+
     .hint {
         width: 24%;
         line-height: 10vw;
         height: 11vw;
     }
+
     .bad,
     .art {
         width: 111%;
         height: 23vw;
     }
+
     .art {
         width: 111%;
         height: 23vw;
     }
+
     .bad img,
     .art img {
         width: 10%;
     }
+
     section.section4 {
         height: 40vw;
     }
+
     .footer {
         width: 113%;
         height: 43vw;
     }
+
     ul.foot {
         font-size: 12px;
         width: 97%;
     }
+
     .line {
         line-height: 4;
     }
-    footer {
-        width: 100%;
-        height: 43vw;
+    .footer {
+        width: 113%;
+        height: 123vw;
     }
+
     .menu {
         gap: 20%;
     }
@@ -128,6 +144,7 @@
         display: block;
         width: 198%;
     }
+
     .navigation {
         height: 0;
         overflow: hidden;
@@ -135,6 +152,7 @@
         align-items: center;
         transition: all 0.5s ease-in-out;
     }
+
     .logo {
         display: flex;
         height: 123px;
@@ -142,6 +160,7 @@
         margin-top: 2%;
         justify-content: center;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
         margin-top: 0rem;
         height: 497px;
@@ -149,74 +168,91 @@
         width: 101%;
         font-size: 41px
     }
+
     .hamburger-icon .fa-bars,
     .hamburger-icon .fa-x {
         font-size: 5rem;
         position: absolute;
         top: 44px;
     }
+
     .navigation a {
         font-size: 27px;
     }
+
     .hamburger-icon {
         display: block;
     }
+
     .fa-x {
         display: none;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
         display: none;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
         display: none;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
         display: inline-block;
     }
+
     .he {
         min-width: 60%;
         height: 19vw;
         font-size: 28px;
         line-height: 13vw;
     }
+
     .good {
         flex-wrap: wrap;
         width: 198%;
         height: 85vw;
     }
+
     .good img {
         width: 31%;
     }
+
     .connect {
         min-width: 76%;
         height: 27vw;
         line-height: 27vw;
         font-size: 28px;
     }
+
     .black {
         min-width: 64%;
         height: 40vw;
         line-height: 49vw;
         font-size: 31px;
     }
+
     .hint {
         min-width: 60%;
         height: 30vw;
         line-height: 27vw;
         font-size: 28px;
     }
+
     .icon {
         font-size: 19px;
     }
+
     .box {
         flex-wrap: wrap;
         width: 199%;
         height: 67vw;
     }
+
     .box img {
         width: 32%;
         height: 39vw;
     }
+
     .bad,
     .art {
         flex-wrap: wrap;
@@ -224,16 +260,20 @@
         height: 205vw;
         gap: 2%;
     }
+
     .bad img,
     .art img {
         width: 24%;
     }
+
     footer {
         width: 199%;
     }
+
     .menu {
         gap: 45%;
     }
+
     .hi {
         height: 12vw;
     }
@@ -245,6 +285,7 @@
         display: block;
         width: 99%;
     }
+
     .navigation {
         height: 0;
         overflow: hidden;
@@ -252,49 +293,60 @@
         align-items: center;
         transition: all 0.5s ease-in-out;
     }
+
     .logo {
         display: flex;
         height: 48px;
         width: 102%;
         margin-top: 3%;
-       justify-content: center;
+        justify-content: center;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
         margin-top: 0rem;
         height: 300px;
         gap: 7%;
         font-size: 18px;
     }
+
     .hamburger-icon .fa-bars,
     .hamburger-icon .fa-x {
         font-size: 2rem;
         position: absolute;
         top: 26px;
     }
+
     .hamburger-icon {
         display: block;
     }
+
     .fa-x {
         display: none;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
         display: none;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
         display: none;
     }
+
     header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
         display: inline-block;
     }
+
     .good {
         display: flex;
         width: 98%;
         height: 123vw;
         flex-wrap: wrap;
     }
+
     .good img {
         width: 47%;
     }
+
     .he {
         text-align: center;
         line-height: 16vw;
@@ -302,6 +354,7 @@
         height: 22vw;
         font-size: 17px;
     }
+
     .connect,
     .black {
         text-align: center;
@@ -310,9 +363,11 @@
         height: 31vw;
         font-size: 20px;
     }
+
     .black {
         width: 80%;
     }
+
     .box {
         display: flex;
         width: 98%;
@@ -320,13 +375,17 @@
         height: 150vw;
         flex-wrap: wrap;
     }
+
     .footer {
         width: 97%;
+        height: 300vw;
     }
+
     .box img {
         width: 49%;
         height: 47vw;
     }
+
     .bad {
         height: 211vw;
         display: flex;
@@ -334,9 +393,11 @@
         gap: 3%;
         width: 101%;
     }
+
     .bad img {
         width: 35%;
     }
+
     .hint {
         text-align: center;
         line-height: 26vw;
@@ -344,6 +405,7 @@
         height: 28vw;
         font-size: 25px;
     }
+
     .art {
         height: 211vw;
         display: flex;
@@ -351,37 +413,46 @@
         gap: 3%;
         width: 101%;
     }
+
     .art img {
         width: 35%;
 
     }
+
     .end {
         flex-direction: column;
         height: 222px;
     }
+
     .hi {
         height: 101vw;
     }
+
     .items ul {
         flex-direction: column;
         text-align: center;
     }
+
     .items {
         padding: 2% 2%;
     }
+
     .menu {
         flex-direction: column;
         align-items: center;
         margin: -6% 4%;
         height: 47px;
     }
+
     .img {
         height: 215px;
         line-height: 94vw;
     }
+
     .icon {
         line-height: 39vw;
     }
+
     .foot {
         font-size: 58%;
         justify-content: center;
@@ -391,6 +462,7 @@
         flex-direction: column;
         color: black;
     }
+
     .cost {
         font-size: 58%;
         justify-content: center;
@@ -400,8 +472,13 @@
         color: black;
         height: 33vw;
     }
+
     .line {
         width: 95%;
         height: 39vw;
+    }
+
+    section.section4 {
+        height: 248vw;
     }
 }
