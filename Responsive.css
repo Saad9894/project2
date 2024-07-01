@@ -101,6 +101,7 @@
         font-size: 16px;
 
     }
+
     section#game {
         height: 64vw;
     }
@@ -188,25 +189,31 @@
         width: 100%;
         font-weight: 600;
     }
+
     .items ul {
         display: flex;
         gap: 6%;
     }
-    h3{
+
+    h3 {
         width: 30%;
     }
+
     .bar img {
         height: 34vw;
     }
+
     .line {
         line-height: 1;
         height: 23vw;
         font-size: 14px;
         font-weight: 600;
     }
+
     .menu {
         gap: 32%;
     }
+
     img.diney1 {
         height: 20vw;
         padding-left: 0%;
@@ -334,6 +341,7 @@
         width: 71%;
         font-size: 46px;
     }
+
     .bar img {
         height: 127vw;
     }
@@ -342,6 +350,7 @@
         width: 73%;
         font-size: 32px;
     }
+
     .holiday {
         font-size: 83px;
         font-weight: 400;
@@ -349,11 +358,11 @@
         line-height: 56vw;
         width: 39%;
     }
+
     .car {
         width: 93%;
         margin: 4%;
     }
-
 
     .more {
         width: 36%;
@@ -401,7 +410,6 @@
         font-size: 33px;
         width: 42%;
         height: 52vw;
-
     }
 
     .inp {
@@ -419,7 +427,6 @@
 
     .left img,
     .right img {
-        /* width: 200%; */
         height: 125vw;
         width: 126%;
         max-width: 162%;
@@ -458,7 +465,6 @@
     img.diney1 {
         height: 29pc;
         padding-left: 2%;
-        /* padding-top: 1%; */
     }
 
     .items ul {
@@ -497,8 +503,6 @@
     header {
         display: block;
         width: 99%;
-        /* height: 18vw; */
-
     }
 
     .navigation {
@@ -522,7 +526,6 @@
         height: 300px;
         gap: 7%;
         font-size: 18px;
-
     }
 
     .hamburger-icon .fa-bars,
@@ -575,8 +578,8 @@
     }
 
     h2.header {
-        width: 65%;
         padding-top: 6%;
+        text-align: end;
         height: 18vw;
     }
 
@@ -616,45 +619,43 @@
         margin-left: 27px;
     }
 
-    .item1 img,
-    .item2 img,
-    .item3 img {
-        width: 104%;
-        margin-left: 4%;
-    }
-
     .car {
         flex-direction: column;
-        width: 90%;
-        gap: 50px;
+        width: 100%;
+        align-items: center;
     }
-
-
 
     .more {
         width: 90%;
-        height: 35vw;
+        height: 47vw;
     }
 
     .inp {
-        width: 60%;
-        height: 206vw;
+        width: 100%;
+        height: 221vw;
         flex-direction: column;
-        gap: 10%;
+        align-items: center;
+    }
+
+    .gap {
+        width: 83%;
+    }
+
+    .inline {
+        width: 83%;
     }
 
     .left img,
     .right img {
-        width: 145%;
-        height: 295px;
-        margin: 0% 8%;
+        width: 100%;
+        height: 287px;
         line-height: 100px;
     }
 
     .tittle {
-        line-height: 54px;
-        height: 20vw;
-        width: 163%;
+        line-height: 100px;
+        height: 22vw;
+        width: 102%;
     }
 
     section.section3,
@@ -664,13 +665,14 @@
     }
 
     .wrap {
-        width: 157%;
+        width: 96%;
     }
 
     .category {
-        line-height: 61px;
+        line-height: 125px;
+        height: 21vw;
         text-align: center;
-        width: 150%;
+        width: 86%
     }
 
     .end {
@@ -686,11 +688,12 @@
         flex-direction: column;
         text-align: center;
     }
+
     .img {
         height: 218px;
         line-height: 117vw;
     }
-    
+
     .items {
         padding: 2% 2%;
         line-height: 22px;
@@ -705,7 +708,11 @@
 
     }
 
-   .games,
+    .disc {
+        height: 9vw;
+    }
+
+    .games,
     .games1 {
         display: flex;
         flex-direction: column;
@@ -718,9 +725,9 @@
     }
 
     h3 {
-        height: 51vw;
-        line-height: 71vw;
-        width: 46%;
+        height: 41vw;
+        line-height: 52vw;
+        width: 49%;
         font-size: 42px;
     }
 
@@ -738,10 +745,8 @@
     }
 
     .wra {
-        width: 147%;
-        padding: 0px 0px 17px 5%;
+        width: 101%;
         text-align: center;
-
     }
 
     img.city1 {
@@ -768,12 +773,17 @@
         color: black;
         height: 18vw;
     }
-    footer{
+
+    footer {
         height: 245vw;
+    }
+
+    .car img {
+        width: 319px;
     }
 
     .line {
         width: 95%;
-        height: 86vw;
+        height: 64vw;
     }
 }

@@ -54,7 +54,7 @@ div#slider figure img {
 div#slider figure {
     position: relative;
     width: 500%;
-    animation: 20s slider infinite ease-in;
+    animation: 15s slider infinite ease-in;
 }
 @keyframes slider {
     0% {
