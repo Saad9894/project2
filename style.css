@@ -369,8 +369,8 @@ a {
 .line {
     text-align: center;
     color: #101011c4;
-    height: 60px;
-    line-height: 6vw;
+    /* height: 60px; */
+    /* line-height: 6vw; */
 } 
 
 .footer {
