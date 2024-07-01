@@ -118,22 +118,12 @@
 
     .footer {
         width: 113%;
-        height: 43vw;
     }
 
     ul.foot {
         font-size: 12px;
         width: 97%;
     }
-
-    .line {
-        line-height: 4;
-    }
-    .footer {
-        width: 113%;
-        height: 123vw;
-    }
-
     .menu {
         gap: 20%;
     }
@@ -339,30 +329,15 @@
     .good {
         display: flex;
         width: 98%;
-        height: 123vw;
         flex-wrap: wrap;
+        row-gap: 14px;
     }
 
     .good img {
         width: 47%;
     }
 
-    .he {
-        text-align: center;
-        line-height: 16vw;
-        width: 75%;
-        height: 22vw;
-        font-size: 17px;
-    }
-
-    .connect,
-    .black {
-        text-align: center;
-        line-height: 26vw;
-        width: 99%;
-        height: 31vw;
-        font-size: 20px;
-    }
+    
 
     .black {
         width: 80%;
@@ -372,60 +347,47 @@
         display: flex;
         width: 98%;
         flex-wrap: wrap;
-        height: 150vw;
+        row-gap: 15px;
         flex-wrap: wrap;
     }
 
-    .footer {
-        width: 97%;
-        height: 300vw;
-    }
 
     .box img {
         width: 49%;
         height: 47vw;
     }
 
-    .bad {
-        height: 211vw;
+    .bad,.art {
         display: flex;
         flex-wrap: wrap;
         gap: 3%;
-        width: 101%;
+        row-gap: 22px;
     }
 
     .bad img {
         width: 35%;
     }
-
-    .hint {
-        text-align: center;
-        line-height: 26vw;
-        width: 94%;
-        height: 28vw;
-        font-size: 25px;
-    }
-
-    .art {
-        height: 211vw;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3%;
-        width: 101%;
-    }
-
     .art img {
         width: 35%;
 
     }
 
+    .footer {
+        width: 100%;
+    }
     .end {
         flex-direction: column;
-        height: 222px;
-    }
 
-    .hi {
-        height: 101vw;
+    }
+    img.diney1 {
+        width: 200px;
+        height: 167px;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin: -6% 4%;
     }
 
     .items ul {
@@ -433,21 +395,6 @@
         text-align: center;
     }
 
-    .items {
-        padding: 2% 2%;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        margin: -6% 4%;
-        height: 47px;
-    }
-
-    .img {
-        height: 215px;
-        line-height: 94vw;
-    }
 
     .icon {
         line-height: 39vw;
@@ -457,12 +404,12 @@
         font-size: 58%;
         justify-content: center;
         gap: 20px;
-        height: 71vw;
         align-items: center;
         flex-direction: column;
         color: black;
     }
-
+    
+    
     .cost {
         font-size: 58%;
         justify-content: center;
@@ -470,15 +417,10 @@
         align-items: center;
         flex-direction: column;
         color: black;
-        height: 33vw;
     }
 
     .line {
         width: 95%;
-        height: 39vw;
     }
 
-    section.section4 {
-        height: 248vw;
-    }
 }
