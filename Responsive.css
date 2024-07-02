@@ -745,7 +745,7 @@
 
 
     .icon {
-        line-height: 39vw;
+        /* line-height: 39vw; */
     }
 
     .foot {
@@ -769,8 +769,8 @@
 
     .line {
         width: 95%;
-        line-height: 5vw;
-        height: 91vw;
+        /* line-height: 5vw; */
+        /* height: 91vw; */
     }
 
 }
